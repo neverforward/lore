@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "描述",
+    "description": "描述",
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ],
+    "uuid": "bf3b4ede-9d95-4a39-b204-17201f752cfc",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "80657a09-fdc7-4495-a530-aaecb784f527",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "655581d5-ed93-4d36-a642-e8b7937bd850",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0-beta"
+    }
+  ]
+}
